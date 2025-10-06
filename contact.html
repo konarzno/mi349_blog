@@ -21,25 +21,25 @@
     </header>
     <section>
         <h3>You can reach me through the following contact form:</h3>
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
             <p>
-                <label>Name:<input type="text"></label>
+                <label>Name:<input type="text" name="name"></label>
             </p>
             <p>
-                <label>Email:<input type="text"></label>
+                <label>Email:<input type="text" name="email"></label>
             </p>
             <p>
                 <label>Reason for Contact:</label>
-                <select>
+                <select name="reason">
                     <option value="hi">Saying Hi</option>
                     <option value="contractor">Looking for a Contractor</option>
                     <option value="interview">Interested in an Interview</option>
             </select>
             </p>
             <p>
-                <label>Comment:<textarea></textarea></label>
+                <label>Comment:<textarea name="comment"></textarea></label>
             </p>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
         </form>
     </section>
 </body>

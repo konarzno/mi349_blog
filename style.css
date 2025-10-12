@@ -1,3 +1,9 @@
+html {
+    background-color: rgb(48, 155, 236);
+}
+
 body {
-    background-color: skyblue;
+    margin: 40px;
+    padding: 40px;
+    background: #a4e0f8;
 }

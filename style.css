@@ -1,9 +1,16 @@
 html {
-    background-color: rgb(48, 155, 236);
+    background-color: rgb(2, 37, 63);
 }
 
 body {
     margin: 40px;
     padding: 40px;
-    background: #a4e0f8;
+    background: rgb(173, 217, 235);
+}
+
+.navigation {
+    position: sticky;
+    top: 40px;
+    background-color: rgb(202, 233, 245);
+    padding: 20px;
 }
